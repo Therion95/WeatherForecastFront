@@ -1,0 +1,32 @@
+.tableForm { display: table; }
+p[id=submit] { display: table-row; }
+label[id=submit] { display: table-cell;  }
+input[id=submit] { display: table-cell; margin-left: 10px; width:400px;}
+input[name=city] { display: table-cell; margin-left: 10px; width:400px;}
+button[type=submit] { display: block;
+    margin: 0 auto; }
+
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: red;
+}
